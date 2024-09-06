@@ -1,0 +1,62 @@
+.wilcam {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.buton {
+    background-color: #ffffff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+button a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 1.5;
+}
+
+body{
+    padding: 20px 0;
+    box-shadow: 5px 2px 7px black;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to left, transparent, rgba(199, 199, 199, 0.9)),
+    url(../img/wilcambg.jpg)
+}
